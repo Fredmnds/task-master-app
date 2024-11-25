@@ -69,7 +69,7 @@ class TaskController {
         }
 
         task.suporterId = user.id;
-        console.log(user.id);
+
       }
 
       if (!task) {

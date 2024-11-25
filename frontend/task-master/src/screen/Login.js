@@ -26,7 +26,7 @@ const Login = ({ navigation }) => {
                 Alert.alert("Erro", "Falha ao realizar login!");
             }
         } catch (e) {
-            console.log(e);
+            console.error(e);
         }
     };
 

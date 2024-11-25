@@ -10,7 +10,7 @@ export default function TabRoutes() {
         <Tab.Navigator
             screenOptions={{ headerShown: false }}
             initialRouteName="Tarefas"
-            keyboardHidesTabBar={true} // Adiciona esta propriedade
+            keyboardHidesTabBar={true}
         >
             <Tab.Screen
                 name="Tarefas"
