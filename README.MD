@@ -1,25 +1,30 @@
-### FRONTEND
+# Task Master
 
-### cd frontend/task-master
+O Task Master é um aplicativo desenvolvido para ajudar os usuários a gerenciar suas tarefas de forma eficiente. Com ele, você pode criar, editar e excluir tarefas com facilidade, organizando melhor seu tempo e suas responsabilidades. Além disso, o aplicativo permite que você adicione outros usuários como ajudantes das tarefas, facilitando o trabalho colaborativo e a distribuição de responsabilidades. Seja para tarefas do dia a dia ou projetos maiores, o Task Master oferece a flexibilidade necessária para manter tudo em ordem e garantir que suas tarefas sejam realizadas com mais produtividade.
 
-### npm i
+### Tecnologias Usadas
 
+* React Native – para o desenvolvimento do frontend mobile.
+* Node Js – para o desenvolvimento do backend.
 
+## Como utilizar
 
-### npx expo start
+#### FRONTEND
 
-### -----------------------
+* cd frontend/task-master
 
-### BACKEND
+* npm i
 
-### cd backend/task-master
+* npx expo start
+#
+#### BACKEND
 
-### npm i
+cd backend/task-master
 
-### Ajustar backend/task-master/src/config
+npm i
 
-### npx sequelize-cli db:migrate
+Ajustar backend/task-master/src/config
 
+npx sequelize-cli db:migrate
 
-
-### npm run dev
+npm run dev
